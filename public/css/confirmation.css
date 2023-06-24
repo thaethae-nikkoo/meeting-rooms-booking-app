@@ -1,0 +1,64 @@
+/* header navigation */
+.nav_text {
+    color: var(--link) !important;
+    font-weight: var(--bold);
+}
+.nav_right_text {
+    color: var(--link) !important;
+    font-weight: bold;
+}
+.nav_right_text {
+    color: var(--template) !important;
+    font-weight: bold;
+}
+.nav_bg {
+    background-color: var(--link) !important;
+}
+/*👉Confirmation text styling👈*/
+.confirmation {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 30%);
+}
+.bold-700 {
+    font-weight: var(--bold);
+}
+.confirm-time strong,
+.confirm-time p,
+.confirm-time i {
+    color: #14283d;
+    font-size: 17px;
+
+    font-weight: bold;
+}
+.confirmation img {
+    width: 20%;
+}
+.bookings_header {
+    color: #2e499e;
+}
+@media screen and (max-width: 600px) {
+    .confirmation {
+        position: relative;
+        left:50%;
+
+    }
+    .confirmation img{
+        width: 30%;
+    }
+    .confirmation h2{
+        font-size: 18px;
+    }
+    .confirm-time strong,
+    .confirm-time p,
+    .confirm-time i {
+
+        font-size: 14px;
+
+
+    }
+    #invite p{
+        font-size: 14px;
+
+    }
+}

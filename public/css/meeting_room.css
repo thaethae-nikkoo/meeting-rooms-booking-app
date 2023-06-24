@@ -1,0 +1,86 @@
+
+:root {
+  /*👉Color 👈*/
+  --light-yellow: #f4ef86;
+  --yellow: #f5ea00;
+  --link: #2e499e;
+  --dark: #14283d;
+  --template: #fff;
+  --heading: #000;
+  --seablue: #14283d;
+  --text: gray;
+  /*👉Default font-family👈*/
+  --roboto: "Roboto", sans-serif;
+  /*👉Font weight Regular (paragraph) and Bold 700 (headings_👈*/
+  --regular: 400;
+  --bold: 700;
+}
+* {
+  font-family: var(--roboto) !important;
+  font-weight: var(--regular);
+  color: var(--seablue);
+}
+body {
+  background-color: var(--template) !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header navigation */
+.nav_text {
+  color: var(--link) !important;
+  font-weight: var(--bold);
+}
+.nav_right_text {
+  color: var(--link) !important;
+  font-weight: bold;
+}
+.nav_right_text {
+  color: var(--template) !important;
+  font-weight: bold;
+}
+.nav_bg {
+  background-color: var(--link) !important;
+}
+/* meeting title */
+.meeting_title_text{
+  color: var(--link)! important;
+  font-weight: var(--bold)
+}
+/* customize form */
+.form-control{
+  box-shadow: none !important;
+}
+.form-control:focus{
+  border-color: var(--link)!important;
+}
+input[type="radio"]:checked{
+  background-color: var(--link);
+  border-color:var(--heading) !important;
+  box-shadow: none!important;
+}
+[type=submit]{
+  box-shadow:none !important ;
+}
+.btn_custom{
+  background-color: var(--link) !important;
+}
+/* footer */
+.footer_link_text {
+  color: var(--link);
+  font-weight: 400;
+}
+/* small phone to small tablet from 577 to 768px */ 
+@media only screen and (max-width: 768px) {
+  .navbar-toggler:focus{
+      border: 0 !important;
+      box-shadow: none !important;
+  }
+}
+/* small phone from 0 to 576px */
+@media only screen and (max-width: 576px) {
+  .navbar-toggler:focus{
+    border: 0 !important;
+    box-shadow: none !important;
+}
+}

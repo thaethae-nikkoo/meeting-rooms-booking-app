@@ -1,0 +1,22 @@
+/*👉CSS Declarations👈*/
+:root {
+  /*👉Color 👈*/
+  --light-yellow: #f4ef86;
+  --yellow: #f5ea00;
+  --link: #2e499e;
+  --dark: #14283d;
+  --template: #fff;
+  --heading: #000;
+  --seablue: #14283d;
+  --text: gray;
+  /*👉Default font-family👈*/
+  --roboto: "Roboto", sans-serif;
+  /*👉Font weight Regular (paragraph) and Bold 700 (headings_👈*/
+  --regular: 400;
+  --bold: 700;
+}
+/*👉Just an example👈*/
+* {
+  font-family: var(--roboto) !important;
+  font-weight: var(--regular);
+}

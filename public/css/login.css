@@ -1,0 +1,10 @@
+.login-header {
+    font-weight: var(--bold);
+    color: var(--heading);
+}
+.forget-pw {
+    color: var(--text);
+}
+i.hide-btn::before {
+    content: "\F33F";
+}
